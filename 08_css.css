@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-style: 'Roboto';
+  font-size: 16px;
+  font-weight: normal;
+  background: #fff;
+  color: #0f141e;
+}
+
+.container{
+  margin: auto;
+}
+
+.main-info{
+  position: relative;
+  font-style: italic;
+  font-weight: bold;
+  background: #86898f;
+  border: 2px solid black;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px 15px;
+}
+
+.name{
+  position: absolute;
+  top: 0px;
+  left: 150px;
+}
+
+.about-u{
+  position: absolute;
+  left: 150px;
+  top: 50px;
+}
+
+.btn:hover{
+opacity: 0.7;
+cursor: pointer;
+}
+
+.btn{
+  border-radius: 10px;
+}
+
+a:active{
+  color: orange;
+}
+
+.mybhoto{
+  width: 100px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.social{
+position: absolute;
+left: 150px;
+top: 140px;
+}
+
+.social-link{
+  position: absolute;
+  left: 150px;
+  top: 200px;
+  background-color: gainsboro;
+  border-radius: 30px;
+  padding: 0px 14px;
+  
+}
+
+.job-exp{
+  background-color: #82656b;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding-bottom: 4px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.hobbi{
+  background-color: #c977c7;  
+  border-radius: 20px;
+  border: 2px solid pink;
+  width: fit-content;
+  padding-right: 25px;
+}
+
+.hobbi ul{
+  list-style: none;
+  padding-left: 15px;
+}
+
+.connection{
+  background-color: #aaca;
+  border-end-end-radius: 10px;
+}
+.con-top-group{
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.con-top-group .connection-group{
+  width: 50%;
+  margin-right: 20px;
+  /* display: inline-block;
+  width: calc(50% - 20px);  */
+}
+
+.con-top-group .connection-group:last-child{
+  margin-right: 0;
+}
+
+.connection h3{
+  text-align: center;
+}
+
+.connection-group label{
+display: block;
+font-size: 14px;
+}
+
+.connection-group textarea,
+.connection-group input{
+width: 100%;
+box-sizing: border-box;
+border: none;
+background: transparent;
+border-bottom: 1px solid #aaa ;
+color: black;
+outline: none;
+padding: 15px 0 10px;
+font-family: inherit;
+}
+
