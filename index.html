@@ -2,111 +2,419 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="html, scc, js, frontend, resume">
-    <meta name="discription" content="'Это сайт-резюме Алексея Кашубы'">
-    <link rel="stylesheet" href="08_css.css">
-    <title>My resume</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Createx</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="main-info">
-            <img src="MeOnPhoto.jpg" class="mybhoto">
-            <h2 class="name">Алексей Кашуба</h2>
-            <p class="about-u">S`exstuden Алтайского Государственного Университета. Человек, которому
-                этот мир абсолютно понятен. Я ищу в этом мире только одного - покоя, умиротворения и
-                вот этой гармонии, от слияния с бесконечно вечным. Тебе я желаю все самые крутые тачки
-                чтоб были у тебя, и все самые лучше самки, если мало идей, обращайся ко мне, я тебе на каждую твою идею
-                предложу сотню триллионов, как всё делать. А мне все это чуждо, поэтому я учу programming чтобы работать
-                за three hundred bucks.</p>
-            <h4 class="social">Мои социальные сети</h4>
-            <div class="social-link">
-                <a href="https://vk.com/aragorn_tv" class="btn" target="_blank">VK</a>
-                |
-                <a href="https://www.youtube.com/channel/UC5mxLapU2yctIbNqfjcNIEA" class="btn"
-                    target="_blank">YouTube</a>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <a class="header__logo logo" href="#">
+              <img src="img/logos/main-logo.svg" alt="logo">
+            </a>
+            <div class="header__nav nav">
+              <ul class="header__nav-list">
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">About Us</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">Courses</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">Events</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">Blog</a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#" class="header__nav-link">Contacts</a>
+                </li>
+              </ul>
             </div>
+            <div class="header__btn-box">
+              <a class="header__top-btn button" href="#">Get consultation</a>
+              <div class="header__user-nav">
+                <a class="header__user-btn" href="#">Log in</a>
+                /
+                <a class="header__user-btn" href="#">Register</a>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-
-    <p>
-
-    <h3>Опыт работы</h3>
-    <table class="job-exp">
-        <thead>
-            <tr>
-                <th>Название</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Крыша</td>
-                <td>Оффициант</td>
-                <td>2020</td>
-            </tr>
-            <tr>
-                <td>Перспектива24</td>
-                <td>Риэлтор</td>
-                <td>2020-2021</td>
-            </tr>
-            <tr>
-                <td>Пузыри</td>
-                <td>Администратор</td>
-                <td>2021-2023</td>
-            </tr>
-            <tr>
-                <td>IT</td>
-                <td>Frontend</td>
-                <td>2023-сейчас</td>
-            </tr>
-        </tbody>
-    </table>
-    </p>
-    <h3>Мои хобби</h3>
-    <ol class="hobbi">
-        <li>Видеоигры
-            <ul>
-                <li>CS:GO</li>
-                <li>DOTA2</li>
-                <li>PUBG</li>
+      </div>
+      <div class="header__bottom">
+        <div class="container">
+          <div class="header__body-inner">
+            <div class="header__main">
+              <div class="header__content">
+                <a class="header__play" href="#">
+                  <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="26" cy="26" r="26" fill="#FF3F3A" />
+                    <path
+                      d="M32.5 25.134C33.1667 25.5189 33.1667 26.4811 32.5 26.866L23.5 32.0622C22.8333 32.4471 22 31.966 22 31.1962L22 20.8038C22 20.034 22.8333 19.5529 23.5 19.9378L32.5 25.134Z"
+                      fill="white" />
+                  </svg>
+                  Play showreel
+                </a>
+                <h1 class="header__titel">
+                  Enjoy studying with Createx Online Courses
+                </h1>
+                <div class="header__content-buttons">
+                  <a class="header__content-btn button button--empty" href="#"><span>About us</span></a>
+                  <a class="header__content-btn button" href="#">Explore courses</a>
+                </div>
+              </div>
+              <img class="header__img" src="/img/illustration/illustration.svg" alt="">
+            </div>
+            <ul class="header__row">
+              <li class="header__row-item">
+                <span>1200</span>Students graduated
+              </li>
+              <span></span>
+              <li class="header__row-item">
+                <span>84</span>Completed courses
+              </li>
+              <span></span>
+              <li class="header__row-item">
+                <span>16</span>Qualified tutors
+              </li>
+              <span></span>
+              <li class="header__row-item">
+                <span>5</span>Years of experience
+              </li>
             </ul>
-        </li>
-        <li>Шахматы</li>
-        <li>Спорт</li>
-        <li>Настольные игры</li>
-    </ol>
-
-    <div class="connection">
-        <h3>Связаться со мной</h3>
-        <div class="con-top-group">
-            <div class="connection-group">
-                <label for="text">Ваше имя:</label>
-                <input type="text" id="text" placeholder="Введите имя">
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__createx">
+              <div class="about__createx-content">
+                <div class="about__heading heading">
+                  <p class="heading__subtitle">About us</p>
+                  <h2 class="heading__title">Createx Online School</h2>
+                </div>
+                <div class="about__text">
+                  <p class="about__paragraph about__paragraph--accent">Createx Online School is a leader in online
+                    studying. We have lots of courses and programs from the main market experts.</p>
+                  <p class="about__paragraph">We provide relevant approaches to online learning, internships and
+                    employment in the largest companies in the country. Our educational programs help you get a new
+                    specialty from scratch. During your studies, we will help you find a job. Check the courses and
+                    online events that we organise.</p>
+                </div>
+                <div class="about__btn-box">
+                  <a class="about__btn button button--empty" href="#"><span>Explore events</span></a>
+                  <a class="about__btn button" href="#">Browse courses</a>
+                </div>
+              </div>
+              <img class="about__img" src="/img/illustration/about-illustration.svg" alt="">
             </div>
-
-            <div class="connection-group">
-                <label for="email">Ваш email:</label>
-                <input type="email" id="email" placeholder="Введите email">
+            <div class="about__values">
+              <div class="about__img-box">
+                <img src="img/numbers-img.jpg" alt="">
+              </div>
+              <ul class="about__numbers">
+                <li class="about__number">
+                  <span>1200</span>students graduated
+                </li>
+                <li class="about__number">
+                  <span>84</span>completed courses
+                </li>
+                <li class="about__number">
+                  <span>16</span>qualified tutors
+                </li>
+                <li class="about__number">
+                  <span>5</span>years of experience
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </section>
+      <section class="teach">
+        <div class="container">
+          <div class="header-teach">
+            <p class="header-teach__paragraph">our main directions</p>
+            <h3 class="header-teach__header">What do we teach</h3>
+          </div>
+          <div>
+            <ul class="course-list"">
+            <li >
+            <button class=" course-list__buttons">All</button>
+              </li>
+              <li>
+                <button class="course-list__buttons">Marketing</button>
+              </li>
+              <li>
+                <button class="course-list__buttons">Management</button>
+              </li>
+              <li>
+                <button class="course-list__buttons">HR & Recruting</button>
+              </li>
+              <li>
+                <button class="course-list__buttons">Design</button>
+              </li>
+              <li>
+                <button class="course-list__buttons">Development</button>
+              </li>
+            </ul>
+          </div>
+          <div class="courses">
+            <div class="courses-one">
+              <div class="courses-one__photo">
+                <img src="/img/direcrions/1.jpg" alt="">
+              </div>
+              <div class="courses-one__discr">
+                <div class="courses-one__discr-name courses-one__discr-name1">
+                  <p>Marketing</p>
+                </div>
+                <div class="courses-one__discr-discr">
+                  <p>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra
+                    scelerisque consequat.</p>
+                </div>
+                <div class="courses-one__discr-link">
+                  <a href="#">Check courses<img class="corses-one__arrow" src="/img/icons/arrow-right.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="courses-one">
+              <div class="courses-one__photo">
+                <img src="/img/direcrions/2.png" alt="">
+              </div>
+              <div class="courses-one__discr">
+                <div class="courses-one__discr-name courses-one__discr-name2">
+                  <p>Management</p>
+                </div>
+                <div class="courses-one__discr-discr">
+                  <p>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra
+                    scelerisque consequat.</p>
+                </div>
+                <div class="courses-one__discr-link">
+                  <a href="#">Check courses<img class="corses-one__arrow" src="/img/icons/arrow-right.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="courses-one">
+              <div class="courses-one__photo">
+                <img src="/img/direcrions/3.jpg" alt="">
+              </div>
+              <div class="courses-one__discr">
+                <div class="courses-one__discr-name courses-one__discr-name3">
+                  <p>HR & Recruting</p>
+                </div>
+                <div class="courses-one__discr-discr">
+                  <p>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra
+                    scelerisque consequat.</p>
+                </div>
+                <div class="courses-one__discr-link">
+                  <a href="#">Check courses<img class="corses-one__arrow" src="/img/icons/arrow-right.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="courses-one">
+              <div class="courses-one__photo">
+                <img src="/img/direcrions/4.jpg" alt="">
+              </div>
+              <div class="courses-one__discr">
+                <div class="courses-one__discr-name courses-one__discr-name4">
+                  <p>Design</p>
+                </div>
+                <div class="courses-one__discr-discr">
+                  <p>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra
+                    scelerisque consequat.</p>
+                </div>
+                <div class="courses-one__discr-link">
+                  <a href="#">Check courses<img class="corses-one__arrow" src="/img/icons/arrow-right.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="courses-one">
+              <div class="courses-one__photo">
+                <img src="/img/direcrions/5.jpg" alt="">
+              </div>
+              <div class="courses-one__discr">
+                <div class="courses-one__discr-name courses-one__discr-name5">
+                  <p>Development</p>
+                </div>
+                <div class="courses-one__discr-discr">
+                  <p>Odio posuere netus quisque faucibus lectus arcu donec. Eget dictum eu viverra faucibus. Viverra
+                    scelerisque consequat.</p>
+                </div>
+                <div class="courses-one__discr-link">
+                  <a href="#">Check courses<img class="corses-one__arrow" src="/img/icons/arrow-right.svg" alt=""></a>
+                </div>
+              </div>
+            </div>
+            <div class="courses-last">
+              <div class="courses-last-info">
+                <p>New studying program coming soon...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="any-questions">
+        <div class="container">
+          <div class="questions">
+            <div class="questions-img">
+              <img src="/img/illustration/illustration4.svg">
+            </div>
+            <div class="questions-right">
+              <div class="questions-text">
+                <p class="questions-text__paragraph">Any questions?</p>
+                <h3 class="questions-text__header">Drop us a line</h3>
+              </div>
+              <div class="questions-info">
+                <div class="questions-info__text">
+                  <form class="questions-info-text">First Name*</form>
+                  <input class="questions-info-border" type="text" placeholder="Your first name">
+                </div>
+                <div class="questions-info__text questions-info__left">
+                  <form class="questions-info-text">Last Name*</form>
+                  <input class="questions-info-border" type="text" placeholder="Your last name">
+                </div>
+                <div class="questions-info__text">
+                  <form class="questions-info-text">Email*</form>
+                  <input class="questions-info-border" type="email" placeholder="Your working email">
+                </div>
+                <div class="questions-info__text questions-info__left">
+                  <form class="questions-info-text">Phone</form>
+                  <input class="questions-info-border" type="text" placeholder="Your phone number">
+                </div>
+                <div class="questions-info__text">
+                  <form class="questions-info-text">Message*</form>
+                  <textarea class="questions-info-border questions-info-message" type="text"
+                    placeholder="Your message"></textarea>
+                </div>
+              </div>
+              <div class="questions-bottom">
+                <div class="questions-bottom__agree">
+                  <input class="questions-bottom-default" type="checkbox" />
+                  <span class="questions-bottom-custom"></span>
+                  <p class="question-bottom__pragraph">I agree to receive communications from Createx Online School</p>
+                </div>
+                <button class="button">Send message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="top-footer">
+        <div class="container">
+          <div class="top-footer-info">
+            <div class="top-footer-info-logo">
+              <div class="top-footer-info-logo__logo">
+                <a href="#"><img src="/img/logos/logo-bottom.svg"></a>
+              </div>
+              <div class="top-footer-info-logo__paragraph">
+                <p>Createx Online School is a leader in online studying. We have lots of courses and programs from the
+                  main market experts. We provide relevant approaches to online learning, internships and employment
+                  in the largest companies in the country. </p>
+              </div>
+              <div class="top-footer-info-logo__links"></div>
+              <ul class="top-footer-info-logo__links-social">
+                <li><a class="top-footer-info-logo__links-social-inst" href="#"><img src="/img/icons/Facebook.svg"></a>
+                </li>
+                <li><a class="top-footer-info-logo__links-social-inst" href="#"><img src="/img/icons/Twitter.svg"></a>
+                </li>
+                <li><a class="top-footer-info-logo__links-social-inst" href="#"><img src="/img/icons/YouTube.svg"></a>
+                </li>
+                <li><a class="top-footer-info-logo__links-social-inst" href="#"><img src="/img/icons/telegram.svg"></a>
+                </li>
+                <li><a class="top-footer-info-logo__links-social-inst" href="#"><img src="/img/icons/Instagram.svg"></a>
+                </li>
+                <li><a class="top-footer-info-logo__links-social-inst" href="#"><img src="/img/icons/Linked-In.svg"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="top-footer-info__site-map">
+              <div class="top-footer-info__site-map-paragraph">
+                <p class="top-footer-info__site-map-paragraph-main">SITE MAP</p>
+              </div>
+              <div class="top-footer-info__site-map-links">
+                <ul class="top-footer-info__site-map-links-main">
+                  <li><a class="top-footer-info__site-map-links-bottom" href="#">About Us</a></li>
+                  <li><a class="top-footer-info__site-map-links-bottom" href="#">Courses</a></li>
+                  <li><a class="top-footer-info__site-map-links-bottom" href="#">Events</a></li>
+                  <li><a class="top-footer-info__site-map-links-bottom" href="#">Blog</a></li>
+                  <li><a class="top-footer-info__site-map-links-bottom" href="#">Contacts</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="top-footer-info__courses">
+              <div class="top-footer-info__courses-paragraph">
+                <p class="top-footer-info__courses-paragraph-main">COURSES</p>
+              </div>
+              <div class="top-footer-info__courses-links">
+                <ul class="top-footer-info__courses-links-main">
+                  <li><a class="top-footer-info__courses-links-bottom" href="#">Marketing</a></li>
+                  <li><a class="top-footer-info__courses-links-bottom" href="#">Management</a></li>
+                  <li><a class="top-footer-info__courses-links-bottom" href="#">HR & Recruting</a></li>
+                  <li><a class="top-footer-info__courses-links-bottom" href="#">Design</a></li>
+                  <li><a class="top-footer-info__courses-links-bottom" href="#">Development</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="top-footer-info__contact-us">
+              <div class="top-footer-info__contact-us-paragraph">
+                <p class="top-footer-info__contact-us-paragraph-main">CONTACT US</p>
+              </div>
+              <div class="top-footer-info__contact-us-links">
+                <ul class="top-footer-info__contact-us-links-main">
+                  <li><a class="top-footer-info__contact-us-links-bottom" href="#"><img
+                        src="/img/icons/iPhone.svg"><p class="iphone-margin">(405) 555-0128</p></a></li>
+                  <li><a class="top-footer-info__contact-us-links-bottom" href="#"><img
+                        src="/img/icons/Mail.svg"><p class="iphone-margin"> hello@createx.com</p></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="top-footer-info_sing-up">
+              <div class="top-footer-info__sing-up-paragraph">
+                <p class="top-footer-info__sing-up-paragraph-main">SIGN UP TO OUR NEWSLETTER</p>
+              </div>
+              <div class="top-footer-info_sing-up-email">
+                <input class="top-footer_email" type="email" placeholder="Email address">
+                <a href="#"><img class="img-arrow" src="img/icons/arrow-right-mni.svg"></a>
+              </div>
+              <div class="top-footer-info_sing-up-paragraph-bottom">
+                <p class="top-footer-info_sing-up-paragraph-bottom-bot">*Subscribe to our newsletter to receive
+                  communications and early updates from Createx SEO Agency.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="bottom-footer">
+          <div class="container">
+            <div class="botoom-footer__main">
+              <div class="bottom-footer__main-paragraph">
+                <p>© All rights reserved.Made with
+                  <img class="img-heart" src="/img/icons/Heart.svg">
+                  by Createx Studio
+                </p>
+              </div>
+              <a href="#">GO TO TOP</a>
+            </div>
+          </div>
+    </footer>
+  </div>
 
-        <div class="connection-group">
-            <label for="message">Ваше сообщение</label>
-            <br>
-            <textarea id="message" cols="20" rows="4" placeholder="Введите сообщение..."></textarea>
-        </div>
-
-        <div>
-            <label for="submit"></label>
-            <input type="submit" id="submit" class="btn">
-        </div>
-    </div>
-    </div>
 </body>
+
+<script src="js/main.js"></script>
 
 </html>
